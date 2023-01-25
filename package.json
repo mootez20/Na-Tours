@@ -1,0 +1,26 @@
+{
+  "name": "na-tours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mootez20/Na-Tours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mootez20/Na-Tours/issues"
+  },
+  "homepage": "https://github.com/mootez20/Na-Tours#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "patch-package": "^6.5.1"
+  }
+}
